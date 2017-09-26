@@ -1,0 +1,24 @@
+	
+	
+	Rezolvarea tine in mod aprioric de functia main in cadrul careia sunt specificate cu precizie functiile a caror executare duce la rezolvarea taskurilor dupa cum urmeaza: 
+	
+	Task 1: 
+	
+	citirea de la tastatura si memorarea intr-o matrice care va fi alocata dinamic, urmata de functii decizionale pentru a stabili tipul inputului. 
+		Functia citire memoreaza in matricea alocata dinamic inputurile si o returneaza pe aceasta.
+		Functia ce_tip_e decide daca un string, in general, se incadreaza in una din categoriile propuse in cadrul cerintei si returneaza pentru fiecare o valorea care ne va fi de folos in cadrul contorizarii acestora.
+		Functia cuv_carac_nr lucreaza cu acei contori mai sus mentionati in scopul de a obtine valorile dorite care sa reprezinte: numarul de caractere, numarul de cuvinte sau de numere. Se vor folosi valorile returnare in functia anterioara.
+		
+	Task 2: 
+	
+	codificarea in functie de tipul stringului introdus; codificarea se realizeaza in functie de rezultatul obtinut dupa executarea functiei ce_tip_e.
+		Asadar, numerele vor fi codificate cu ajutorul functiei codif_nr_ret_int care stabileste daca numarul este pozitiv sau negativ. In functie de aceasta, numarul va fi modificat in mod circular pentru a obtine valoarea maxima sau minima, in functie de valoarea pozitiva sau negativa. Pentru a obtine aceste extreme, se realizeaza convertirea din char in int pentru a putea evalua corespunzator.
+		Pentru a codifica cuvintele, trebuie sa determinam, mai intai, daca acestea contin sau nu cifre, ramificand apoi procesul. Functii mai mici precum contains_digit, swap sau reverse_string vor fi de ajutor la determinarea formei finale obtinute in functia termen_nou. Deci, daca se va gasi o cifra in cuvant, o parte din acesta va fi inversat prin functia reverse_string inainte de a fi atasat la inceput. Toate acestea re realizeaza dupa stabilirea divizorului maxim in functie de lungimea cuvantului.
+		Pentru caractere, functia centrala va fi codifica_caracter care se executa in functie de stringul anterior. Pentru aceasta, este nevoie de functia number_of_occurrences care decide de cate ori apare un element in string pentru a putea modifica, prin atasare la final si la inceput de caracter, nou caracter.
+		
+		Task 3:
+		
+		este nevoie de rearanjarea sirului conform cerintei; 
+			Se vor realiza niste partitionari in functie de valorea numarului n citit de la tastatura. Pentru fiecare bucata de acest fel, se va calcula complexitatea.
+			Este nevoie si de sortare in functie de complexitate, dar si de ordinea lexicografica. Mesajul final va fi obtinut.
+
