@@ -1,2 +1,2 @@
 # encoder
-Programul contine 3 taskuri complete.
+Programul contine 3 nivele de decodare.
